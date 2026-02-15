@@ -1,0 +1,12 @@
+{
+  "name": "repo-tag-cleaner",
+  "version": "1.0.0",
+  "description": "Clean up repository tags and releases",
+  "main": "src/index.js",
+  "bin": { "gh-tag-clean": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "tags", "cleanup"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
